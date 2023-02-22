@@ -1,0 +1,131 @@
+
+body{
+    background-color: #F5F5F5;
+}
+
+.cabecalho-imagem{
+    width: 1600px;
+    height: 322px;
+    margin: 40px;
+    }
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+    padding: 50px;
+   }
+    
+.paragrafo-1{
+    font-family: Courier  , monospace;
+    font-size: 40px;
+    text-align:start;
+    margin:0px;
+    padding: 40px;
+}
+
+.descrição-imitação{
+    display:flex;
+    order: <1>;
+    padding: 20px;
+    margin: 0px;
+    width: 1600px;
+    height: 500px;
+    }
+
+.texto-imitação{
+    text-align:justify;
+    list-style-type: none;
+    font-size: 35px;
+    padding: 30px;
+    margin: 0px;
+    
+    }
+
+.descrição-castelo-interior{
+    display:flex;
+    order: <2>;
+    padding: 20px;
+    margin: 0px;
+    width: 1600px;
+    height: 500px;
+}
+
+.texto-castelo-interior{
+    text-align:justify;
+    list-style-type: none;
+    font-size: 35px;
+    padding: 40px;
+    margin:0px;
+}
+
+.descrição-prática-de-amor{
+    display:flex;
+    order: <3>;
+    padding: 20px;
+    margin: 0px;
+    width: 1600px;
+    height: 500px;
+}
+
+.texto-prática-de-amor{
+    text-align:justify;
+    list-style-type: none;
+    font-size: 35px;
+    padding: 40px;
+    margin:0px;
+}
+
+.descrição-a-pequena-via{
+    display:flex;
+    order: <4>;
+    padding:70px 0;
+    margin: 20px;
+    width: 1600px;
+    height: 500px;
+}
+
+.texto-a-pequena-via{
+    text-align:justify;
+    list-style-type: none;
+    font-size: 35px;
+    padding: 40px;
+    margin:0px;
+}
+
+.quadrado-rodapé{
+    background-color: #BC9121;
+    width: 1600px;
+    height: 200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.rodapé-quem-somos{
+    list-style-type: none;
+    color: #4F2B0A;
+    font-size: 50px;
+    }
+
+.rede-social{
+    list-style-type: none;
+}
+
+.copy{
+    list-style-type: none;
+    font-size: 20px;
+    color: #4F2B0A;
+}
+
+a:link{
+    text-decoration: none;
+    color: #4F2B0A;
+}
+a:visited{
+    color: #4F2B0A;
+}
+a:hover{
+    color: black;
+}
